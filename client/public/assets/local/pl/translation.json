@@ -1,0 +1,91 @@
+{
+    "app_title": "Tytuł",
+
+    "comment1": "-----------Navbar section-----------",
+    "sec1_navbar": "O MNIE",
+    "sec2_navbar": "Media",
+    "sec3_navbar": "TECHNOLOGIE",
+    "sec4_navbar": "PROJEKTY",
+    "sec5_navbar": "KONTAKT",
+    "language": "Język",
+
+    "comment2": "-----------Technology section-----------",
+    "tech": {
+      "small_header": "Dlaczego ja",
+      "header": "Trudne sprawy, zniknieły gdzieś",
+      "platform_1":{
+        "header": "ASP .NET",
+        "details": "Poziom średnio-zaawansowany"
+      },
+      "platform_4":{
+        "header": "SQL/SSMS",
+        "details": "Poziom podstawowy"
+      },
+      "platform_3":{
+        "header": "Python",
+        "details": "Poziom podstawowy"
+      },
+      "platform_2":{
+        "header": "JavaScript/React",
+        "details1": "Poziom podstawowy",
+        "detalis2": "(lepiej niż py, gorzej od c# )"
+      }
+    },
+
+    "comment3": "-----------About section-----------",
+    "about": {
+      "start_desc": {
+        "first": "nagłówek pl!",
+        "second": "Nazywam się Dominik, jestem autorem tej strony!"
+      },
+      "end_desc": {
+        "first": "Zawsze marzyłem o zostaniu programistą. O pisaniu funkcjonującego i czystego kodu, o dostarczaniu ludziom przydatnych rozwiązań oraz patrzeniu, jak z zadowoleniem korzystają z moich produktów.",
+        "second": "Od 2019 roku studiuję informatykę na SGGW. Od tego czasu udało mi się dodatkowo zyskać drobne doświadczenie jako wdrożeniowiec systemu ERP."
+      },
+      "button":{
+        "CV": "CV",
+        "GitHub": "GitHub"
+      }
+    },
+
+    "comment4": "-----------Contact section-----------",
+    "contact": {
+      "head": "Skontakuj się ze mną",
+      "inputs":{
+        "first_name": "Imię",
+        "second_sname": "Nazwisko",
+        "third_email": "Email",
+        "fourth_mess": "Wiadomość",
+        "email_info": "Twój email jest u nas bezpieczny."
+      },
+      "button": "Wyślij",
+      "pop-up_mess": "Twoja widomość została wysłana."
+    },
+
+    
+    "comment5": "-----------WhatUFind section-----------",
+    "whatufind": {
+      "head": "Co znajdziesz na stronie?",
+      "paragraf":{
+        "first": "Jest to swojego rodzaju portfolio, które stworzyłem z myślą zareklamowania siebie.",
+        "second": "Jest to jeden z moich pierwszych projektów 'nie tutorialowych' napisanych w pełni samodzielnie.",
+        "third": "Znajdziesz tutaj podstawowe informacje o mnie, możliwość kontatku ze mną, a także projekty ukończone przeze mnie oraz (mam nadzieję) nad którymi pracuję."
+      }
+    },
+
+    "comment6": "-----------Footer section-----------",
+    "footer": {
+      "contact_info": {
+        "header": "Kontakt",
+        "phone_number": "504 353 128",
+        "city": "Warszawa",
+        "country": "Polska",
+        "zip": "02-699",
+        "street": "Kłobucka",
+        "house_number": "8a",
+        "apartment_number": "137"
+      },
+      "details": "Przejdź do",
+      "projects": "Projekty"
+    }
+  }

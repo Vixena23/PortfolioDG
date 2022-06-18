@@ -1,0 +1,91 @@
+{
+    "app_title": "Title",
+    
+    "comment1": "-----------Navbar section-----------",
+    "sec1_navbar": "ABOUT",
+    "sec2_navbar": "Media",
+    "sec3_navbar": "TECHNOLOGY",
+    "sec4_navbar": "PROJECTS",
+    "sec5_navbar": "CONTACT",
+    "language": "Language",
+
+    "comment2": "-----------Technology section-----------",
+    "tech": {
+      "small_header": "About me",
+      "header": "Technology, temporary name",
+      "platform_1":{
+        "header": "ASP .NET",
+        "details": "Intermediate level"
+      },
+      "platform_4":{
+        "header": "SQL/SSMS",
+        "details": "Basic level"
+      },
+      "platform_3":{
+        "header": "Python",
+        "details": "Basic level"
+      },
+      "platform_2":{
+        "header": "JavaScript/React",
+        "details1": "Basic level",
+        "detalis2": "(better then py, worse then c#)"
+      }
+    },
+
+    "comment3": "-----------About section-----------",
+    "about": {
+      "start_desc": {
+        "first": "Header eng!",
+        "second": "My name is Dominik and I am the creator of this website!"
+      },
+      "end_desc": {
+        "first": "I've always dreamed of becoming a programmer. About writing functional and clean code, about delivering useful solutions to people, and seeing them enjoy my products.",
+        "second": "I have been studying IT at the Warsaw University of Life Sciences since 2019. Since then, I have managed to gain some additional experience as an ERP system implementer."
+      },
+      "button":{
+        "CV": "CV",
+        "GitHub": "GitHub"
+      }
+    },
+
+    "comment4": "-----------Contact section-----------",
+    "contact": {
+      "head": "Contact me",
+      "inputs":{
+        "first_name": "Name",
+        "second_sname": "Surname",
+        "third_email": "Email",
+        "fourth_mess": "Message",
+        "email_info": "We'll never share your email with anyone else."
+      },
+      "button": "Send",
+      "pop-up_mess": "Your message has been sent"
+    },
+
+    
+    "comment5": "-----------WhatUFind section-----------",
+    "whatufind": {
+      "head": "What you find on the site?",
+      "paragraf":{
+        "first": "It is a kind of portfolio that I created with the idea of advertising myself.",
+        "second": "This is one of my first 'non-tutorial' projects written entirely by myself.",
+        "third": "Here you will find basic information about me, the possibility of contacting me, as well as projects completed by me and (I hope) on which I am working."
+      }
+    },
+
+    "comment6": "-----------Footer section-----------",
+    "footer": {
+      "contact_info": {
+        "header": "Contact",
+        "phone_number": "504 353 128",
+        "city": "Warsaw",
+        "country": "Poland",
+        "zip": "02-699",
+        "street": "Kłobucka",
+        "house_number": "8a",
+        "apartment_number": "137"
+      },
+      "details": "Details",
+      "projects": "Projects"
+    }
+  }

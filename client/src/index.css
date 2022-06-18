@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-navbar{
+    background: #9e9898;
+}
+.bg-head{
+    background-image:   
+        linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+        ),
+        url(./img/background.jpg);
+
+    color: white;
+    height: 400px;
+}
+
+.header{
+    font-size: 44px;
+}
+
+.ff{
+    /* font-family: 'Open Sans'; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-color-own{
+    color: #474545;
+}
+
+.bg-own{
+    background: #e1fbfc;
+}
+
+#navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}​
+
+.round-rectangle{
+    background-color: turquoise;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.photo-circle{
+    background-color: darkmagenta;
+    border-radius: 100%;
+}
+
+.circle img{
+    border-radius: 50%;
+}
+
+.technology p{
+    color: gray;
+}
+
+/* buttons */
+
+.btn1{
+    height: 45px;
+    width: 140px;
+    padding-top: 8px;
+    margin-right: 3px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.btn1:hover{
+    color: white;
+}
+.btn2{
+    height: 45px;
+    padding-top: 8px;
+    width: 140px;
+    background-color: dimgray;
+    text-decoration: none;
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.btn2:hover{
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+/* PopUp  */
+
+.popUp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top:0%;
+    left: 50%;
+
+    width: 300px;
+    height: 0px;
+    
+    margin-left: -150px;
+
+    overflow: hidden;
+    background-color: turquoise;
+    color: black;
+    border-radius: 5%;
+    transition: .5s ease;
+}
+
+/* Footer */
+
+.main-footer{
+    padding-top: 30px;
+    position: relative;
+    bottom:0;
+    background-color: #dedcdc;
+    /* background-color: paleturquoise; */
+}
+
+#icon{
+    height: 100px;
+    width: 100px;
+    background-color: turquoise;
+    color: white;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 45px;
+    text-align: center;
+    display: inline-block;
+}
+#icon:hover{
+    background: black;
+    color: white;
+    height: 104px;
+    width: 104px;
+    transform: 0.50s;
+}
+.platform-1{
+    background-color: coral;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    transition: all 0.5s
+}
+.platform-2{
+    background-color: coral;
+    margin: 10px;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+    transition: all 0.5s
+}
+
+.platform-3{
+    background-color: coral;
+    margin: 10px;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    display: inline-block;
+    transition: all 0.5s
+}
+
+.box{
+    min-height:500px ;
+}
+
+/* progress bar animation */
+
+
+  .progress__fill{
+    width: 100%;
+    height: 100%;
+    background-color: coral;
+    transition: all 0.5s
+  }
