@@ -1,14 +1,7 @@
-import axios from "axios";
 import { useTranslation } from "react-i18next";
 
 const About = (props) => {
     const { t } = useTranslation()
-
-
-    const newWindow = () => {
-
-         ;
-    }
 
     const pictureImg = require('../img/picture.jpg');
     return(

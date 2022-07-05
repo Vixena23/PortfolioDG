@@ -1,6 +1,189 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@600&display=swap');
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    width: 250px;
+    height: 100vh;
+    overflow: scroll;
+    position: fixed;
+    margin-left: -300px;
+    background-color: #f2f3f7;
+    transition: 0.4s;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: black;
+    z-index: 1;
+    
+}
+
+
+.desc-name{
+    font-size: 1.75em;
+    font-weight: 900;
+}
+
+.nav-link{
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-info{
+    font-size: 0.9em;
+    height: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover{
+    background-color: #362c2c26;
+}
+
+.my-container{
+    transition: 0.4s;
+}
+
+.active-nav{
+    margin-left: 0;
+}
+
+.active-cont{
+    margin-left: 250px;
+}
+
+.active-darker{
+   filter: brightness(50%);
+}
+
+.header_img{
+    width: 210;
+    height: 262;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden
+}
+.header_img img{
+    width: 170px;
+    height: 200px;
+}
+
+.icon-container {
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.4s;
+    z-index: 1;
+  }
+  
+.top-right{
+    position: fixed;
+    top: 2%;
+    right: 5%;
+}
+
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+
+@media screen and (min-width: 768px){
+    #menu-btn{
+        visibility: hidden;
+    }
+    .my-container{
+        margin-left: 250px;
+    }
+    .navbar{
+        margin-left: 0px
+    }
+}
+
+@media screen and (min-width: 1600px){
+    .top-right{
+        right: 10%;
+    }
+}
+
+@media screen and (min-width: 1800px){
+    .top-right{
+        right: 15%;
+    }
+}
+
+
+@media screen and (min-width: 2100px){
+    .top-right{
+        right: 20%;
+    }
+}
+
+
+@media screen and (min-width: 2600px){
+    .top-right{
+        right: 25%;
+    }
+}
+
+@media screen and (min-width: 3200px){
+    .top-right{
+        right: 28%;
+    }
+}
+
+@media screen and (min-width: 3800px){
+    .top-right{
+        right: 32%;
+    }
+}
+
+@media screen and (min-width: 4500px){
+    .top-right{
+        right: 35%;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .bg-image{
+        min-height: 100vh;
+    }
+}
+
+
+/* home section */
+
+.bg-image{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)),
+        url(./img/laptop.jpg);
+    
+    height: 80vh;
+    max-height: 500px;
 }
 
 .bg-navbar{
@@ -25,6 +208,7 @@
 .ff{
     /* font-family: 'Open Sans'; */
     font-family: 'Roboto', sans-serif;
+    
 }
 
 .text-color-own{
@@ -81,11 +265,11 @@
     height: 45px;
     padding-top: 8px;
     width: 140px;
-    background-color: dimgray;
+    background-color: transparent;
     text-decoration: none;
     color: white;
     outline: none;
-    border: none;
+    border: 2px solid white;
     font-weight: bold;
     vertical-align: middle;
 }
@@ -94,6 +278,8 @@
     color: white;
     border: none;
 }
+
+/* text appear */
 
 /* PopUp  */
 
@@ -148,7 +334,7 @@
 }
 .platform-1{
     background-color: coral;
-    width: 200px;
+    width: 175px;
     height: 200px;
     margin: 10px;
     text-align: center;
@@ -158,7 +344,7 @@
 .platform-2{
     background-color: coral;
     margin: 10px;
-    width: 200px;
+    width: 175px;
     height: 100px;
     text-align: center;
     display: inline-block;
@@ -168,7 +354,7 @@
 .platform-3{
     background-color: coral;
     margin: 10px;
-    width: 200px;
+    width: 175px;
     height: 150px;
     text-align: center;
     display: inline-block;

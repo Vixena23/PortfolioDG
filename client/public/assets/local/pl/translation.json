@@ -3,16 +3,17 @@
 
     "comment1": "-----------Navbar section-----------",
     "sec1_navbar": "O MNIE",
-    "sec2_navbar": "Media",
+    "sec2_navbar": "MENU",
     "sec3_navbar": "TECHNOLOGIE",
     "sec4_navbar": "PROJEKTY",
     "sec5_navbar": "KONTAKT",
+    "phone": "Telefon",
     "language": "Język",
 
     "comment2": "-----------Technology section-----------",
     "tech": {
-      "small_header": "Dlaczego ja",
-      "header": "Trudne sprawy, zniknieły gdzieś",
+      "small_header": "My speciality",
+      "header": "MY SKILLS",
       "platform_1":{
         "header": "ASP .NET",
         "details": "Poziom średnio-zaawansowany"
@@ -29,18 +30,28 @@
         "header": "JavaScript/React",
         "details1": "Poziom podstawowy",
         "detalis2": "(lepiej niż py, gorzej od c# )"
-      }
+      },
+      "learning":{
+        "title": "Aktualnie uczę się:",
+        "1":"Blazor WebAssembly",
+        "2":"REST API",
+        "3":"XUnit",
+        "4":"EF Core",
+        "5":"Język Japoński"
+      },
+      "desc":"Najlepiej czuję się z Visual Studio i językiem C#, lecz chętnie poznam nowe technologie. Jestem również zaznajomiony z postawami metodyki Agile, a konkretnie ze Scrum i Kanban, oraz kilkoma wzorcami projektowymi. Dodatkowo znam podstawy pisania testów jednostkowych i integracyjnych.",
+      "known":""
     },
 
     "comment3": "-----------About section-----------",
     "about": {
       "start_desc": {
-        "first": "nagłówek pl!",
-        "second": "Nazywam się Dominik, jestem autorem tej strony!"
+        "first": "Cześć! Mam na imie Dominik",
+        "second": "Jestem autorem tej strony!"
       },
       "end_desc": {
-        "first": "Zawsze marzyłem o zostaniu programistą. O pisaniu funkcjonującego i czystego kodu, o dostarczaniu ludziom przydatnych rozwiązań oraz patrzeniu, jak z zadowoleniem korzystają z moich produktów.",
-        "second": "Od 2019 roku studiuję informatykę na SGGW. Od tego czasu udało mi się dodatkowo zyskać drobne doświadczenie jako wdrożeniowiec systemu ERP."
+        "first": "Od 2019 roku studiuję informatykę na SGGW. Od tego czasu udało mi się stworzyć kilka własnych projektów oraz dodatkowo zyskać doświadczenie jako wdrożeniowiec systemu ERP.",
+        "second": "Tą stronę stworzyłem własnoręcznie przy pomocy Node'a oraz React'a w języku JavaScript. Znajdziesz tutaj podstawowe informacje o mnie, możliwość kontaku ze mną, a także ukończone projekty oraz nad którymi pracuję."
       },
       "button":{
         "CV": "CV",
@@ -59,17 +70,19 @@
         "email_info": "Twój email jest u nas bezpieczny."
       },
       "button": "Wyślij",
-      "pop-up_mess": "Twoja widomość została wysłana."
+      "pop-up_mess": "Twoja widomość została wysłana.",
+      "email": "glegolaadominik@gmail.com",
+      "tel": "504353128"
     },
 
     
     "comment5": "-----------WhatUFind section-----------",
     "whatufind": {
-      "head": "Co znajdziesz na stronie?",
+      "head": "O mnie",
       "paragraf":{
-        "first": "Jest to swojego rodzaju portfolio, które stworzyłem z myślą zareklamowania siebie.",
-        "second": "Jest to jeden z moich pierwszych projektów 'nie tutorialowych' napisanych w pełni samodzielnie.",
-        "third": "Znajdziesz tutaj podstawowe informacje o mnie, możliwość kontatku ze mną, a także projekty ukończone przeze mnie oraz (mam nadzieję) nad którymi pracuję."
+        "first": "Jestem młodym i chcącym się rozwijać programistą. Na ten moment chciałbym się rozwijać jako C# backend developer, lecz uważam, że każde nowe doświadczenia są korzystne w rozwoju.",
+        "second": "Interesuje się sztukami walki parterowymi oraz kulturą krajów wschodniej Azji. W wolnych chwilach najchętniej trenuję BJJ, czytam ksiażki oraz słucham podcastów. ",
+        "third": ""
       }
     },
 
@@ -87,5 +100,39 @@
       },
       "details": "Przejdź do",
       "projects": "Projekty"
+    },
+
+    "comment7": "-----------Projects section-----------",
+    "header": "Projekty",
+    "learn_more": "Czytaj więcej...",
+    "project1": {
+      "header": "Sklep Online",
+      "desc": "Jest to prosty projekt sklepu internetowego nad którym sam pracuję. Na ten moment posiada podstawowe funkcjonalności takie jak: wyświetlanie ogłoszeń czy koszyk. W dużym stopniu służy do nauki implementowania nowych funkcjonalności. Korzystam z Blazor WebAssembly na froncie, ASP Web Api jako serwer oraz EF Core przy połączeniu z bazą danych. Dodatkowo staram się pisać testy integracyjne dla każdej nowej funkcjinalności.",
+      "in_progress": "W trakcie",
+      "link": "https://github.com/Vixena23/ShopOnlineSolution"
+    },
+    "project2": {
+      "header": "Pasjans Klondike",
+      "desc": "Pierwszy projekt zespołowy w którym brało udział około 20 osób. Podzieliliśmy się na dwa podzespoły: developerów i testerów, a następnie stworzyliśmy grę Pasjans, w którą można grać online. Stworzyliśmy ją przy pomocy Node.JS oraz React.JS. W tym projekcie byłem odpowiedzialny za konto użytkownika oraz niektóre animacje. ",
+      "in_progress": "Skończony",
+      "link": "https://github.com/PasjansProjektIO"
+    },
+    "project3": {
+      "header": "Agregator Gazetek Promocyjnych",
+      "desc": "Jest to dosyć zaawansowany projekt, który mam w planach zacząć w niedalekiej przyszłości. Będzie to aplikacja internetowa agregująca gazetki promocyjne sklepów spożywczych, takich jak Biedronka czy Auchan. Jest to również temat mojej pracy inżynieryjnej, więc deadline tego projektu szacuje na koniec roku 2022.",
+      "in_progress": "W planach",
+      "link": "#"
+    },
+    "project4": {
+      "header": "Portfolio",
+      "desc": "Projekt przy wykorzystaniu Node.js - Express oraz React. Jest to aplikacja na której się aktualnie znajdujesz, starałem się możliwie jak najwięcej funkcjonalności pisać od początku. Projekt zakładał stworzenie w miarę schludnego portfolio w celu reklamowania siebie przyszłym pracodawcom. Jest to projekt wstępnie skończony, co oznacza, że będę chciał jeszcze do niego wrócić i go poprawić (chociażby zrefaktorować kod).",
+      "in_progress": "Wstępnie skończone",
+      "link": "#"
+    },
+    "small_projects":{
+      "desc": "Mniejsze projekty, o których warto wspomnieć:",
+      "1": "Aplikacja mobilna do hodowli matek pszczelich w Xamarinie i SQL Lite. (projekt zespołowy)",
+      "2": "Aplikacja webowa przypominająca OLX (podstawowe funkcje), stworzona za pomocą Blazor WebAssembly, ASP Web Api oraz EF Core. (projekt zespołowy)"
     }
+    
   }

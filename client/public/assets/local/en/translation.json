@@ -3,16 +3,17 @@
     
     "comment1": "-----------Navbar section-----------",
     "sec1_navbar": "ABOUT",
-    "sec2_navbar": "Media",
+    "sec2_navbar": "MENU",
     "sec3_navbar": "TECHNOLOGY",
     "sec4_navbar": "PROJECTS",
     "sec5_navbar": "CONTACT",
+    "phone": "Phone",
     "language": "Language",
 
     "comment2": "-----------Technology section-----------",
     "tech": {
-      "small_header": "About me",
-      "header": "Technology, temporary name",
+      "small_header": "My speciality",
+      "header": "My skills",
       "platform_1":{
         "header": "ASP .NET",
         "details": "Intermediate level"
@@ -29,19 +30,29 @@
         "header": "JavaScript/React",
         "details1": "Basic level",
         "detalis2": "(better then py, worse then c#)"
-      }
+      },
+      "learning":{
+        "title": "Current learning:",
+        "1":"Blazor WebAssembly",
+        "2":"REST API",
+        "3":"XUnit",
+        "4":"EF Core",
+        "5":"Japanese Language"
+      },
+      "desc":"I am most comfortable with Visual Studio and the C# language, but am willing to learn new technologies. I am also familiar with the attitudes of Agile methodologies, specifically Scrum and Kanban, and several design patterns. Additionally, I am familiar with the basics of writing unit and integration tests.",
+      "known":""
     },
 
     "comment3": "-----------About section-----------",
     "about": {
       "start_desc": {
-        "first": "Header eng!",
-        "second": "My name is Dominik and I am the creator of this website!"
+        "first": "Hi! My name is Dominik",
+        "second": "I am the creator of this website!"
       },
       "end_desc": {
-        "first": "I've always dreamed of becoming a programmer. About writing functional and clean code, about delivering useful solutions to people, and seeing them enjoy my products.",
-        "second": "I have been studying IT at the Warsaw University of Life Sciences since 2019. Since then, I have managed to gain some additional experience as an ERP system implementer."
-      },
+        "first": "I have been studying IT at the Warsaw University of Life Sciences since 2019. Since then, I have managed to create some projects and  gain some additional experience as an ERP system implementer.",
+        "second": "I created this site with my own hands using Node and React in JavaScript. Here you will find basic information about me, the possibility to contact me, as well as completed projects and on which I am working."
+        },
       "button":{
         "CV": "CV",
         "GitHub": "GitHub"
@@ -59,17 +70,19 @@
         "email_info": "We'll never share your email with anyone else."
       },
       "button": "Send",
-      "pop-up_mess": "Your message has been sent"
+      "pop-up_mess": "Your message has been sent",
+      "email": "glegolaadominik@gmail.com",
+      "tel": "504353128"
     },
 
     
     "comment5": "-----------WhatUFind section-----------",
     "whatufind": {
-      "head": "What you find on the site?",
+      "head": "About me",
       "paragraf":{
-        "first": "It is a kind of portfolio that I created with the idea of advertising myself.",
-        "second": "This is one of my first 'non-tutorial' projects written entirely by myself.",
-        "third": "Here you will find basic information about me, the possibility of contacting me, as well as projects completed by me and (I hope) on which I am working."
+        "first": "I am a young and eager to grow as a programmer. At this point I would like to develop as a C# backend developer, but I believe that any new experience is beneficial in development.",        
+        "second": "I'm interested in grapling and the culture of East Asian. In my free time, I preferably train BJJ, read books and listen to podcasts.",
+        "third": ""
       }
     },
 
@@ -87,5 +100,38 @@
       },
       "details": "Details",
       "projects": "Projects"
+    },
+
+    "comment7": "-----------Projects section-----------",
+    "header": "Projects",
+    "learn_more": "Read more...",
+    "project1": {
+      "header": "Shop Online",
+      "desc": "This is a simple online store project that I am working on myself. At this point, it has basic functionality such as displaying products and a shopping cart. It is largely used to learn how to implement new functionalities. I'm using Blazor WebAssembly on the front end, ASP Web Api as a server and EF Core when connecting to the database. In addition, I try to write integration tests for each new functionality.",
+      "in_progress": "In progress",
+      "link": "https://github.com/Vixena23/ShopOnlineSolution"
+    },
+    "project2": {
+      "header": "Pasjans Klondike",
+      "desc": "This is the first team project involved about 20 people. We split into two teams: developers and testers, and created a Pasjans game that can be played online. We created it using Node.JS and React.JS. In this project, I was responsible for the user account and some animations.",
+      "in_progress": "Done",
+      "link": "https://github.com/PasjansProjektIO"
+    },
+    "project3": {
+      "header": "Promotional Newspaper Aggregator",
+      "desc": "This is quite an advanced project that I plan to start in the near future. It will be a web application that aggregates promotional newspapers of grocery stores such as Biedronka and Auchan. This is also the subject of my engineering thesis, so I estimate the deadline for this project at the end of 2022.",
+      "in_progress": "In future",
+      "link": "#"
+    },
+    "project4": {
+      "header": "Portfolio",
+      "desc": "The project using Node.js - Express and React. This is the application you are currently on, I tried to write as much functionality as possible from scratch. The project was to create a fairly neat portfolio to advertise myself to future employers. It is a pre-finished project, which means that I will still want to come back to it and improve it (if only to refactor the code).",      "in_progress": "Pre-finished",
+      "link": "#"
+    },
+    "small_projects":{
+      "desc": "Smaller projects worth mentioning",
+      "1": "A mobile application for raising bee queens in Xamarin and SQL Lite. (team project)",
+      "2": "An OLX-like web application (basic functions), developed using Blazor WebAssembly, ASP Web Api and EF Core. (team project)"
     }
+    
   }
