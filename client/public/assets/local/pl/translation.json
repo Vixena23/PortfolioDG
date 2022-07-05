@@ -127,7 +127,7 @@
       "header": "Portfolio",
       "desc": "Projekt przy wykorzystaniu Node.js - Express oraz React. Jest to aplikacja na której się aktualnie znajdujesz, starałem się możliwie jak najwięcej funkcjonalności pisać od początku. Projekt zakładał stworzenie w miarę schludnego portfolio w celu reklamowania siebie przyszłym pracodawcom. Jest to projekt wstępnie skończony, co oznacza, że będę chciał jeszcze do niego wrócić i go poprawić (chociażby zrefaktorować kod).",
       "in_progress": "Wstępnie skończone",
-      "link": "#"
+      "link": "https://github.com/Vixena23/PortfolioDG"
     },
     "small_projects":{
       "desc": "Mniejsze projekty, o których warto wspomnieć:",

@@ -126,7 +126,7 @@
     "project4": {
       "header": "Portfolio",
       "desc": "The project using Node.js - Express and React. This is the application you are currently on, I tried to write as much functionality as possible from scratch. The project was to create a fairly neat portfolio to advertise myself to future employers. It is a pre-finished project, which means that I will still want to come back to it and improve it (if only to refactor the code).",      "in_progress": "Pre-finished",
-      "link": "#"
+      "link": "https://github.com/Vixena23/PortfolioDG"
     },
     "small_projects":{
       "desc": "Smaller projects worth mentioning",
