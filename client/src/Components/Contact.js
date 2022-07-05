@@ -1,7 +1,6 @@
 
 import React, {useState} from "react";
 import { axiosInstance } from "../config";
-import axios from "axios";
 import { useTranslation } from "react-i18next";
 
 

@@ -1,6 +1,4 @@
 import Slider from "react-slick";
-import Portfolio from "./Slicker_Sections/Portfolio";
-import FoodProductAggregator from "./Slicker_Sections/FoodProductAggregator"
 import ProjectComponent from "./Slicker_Sections/ProjectComponent";
 
 import { useTranslation } from "react-i18next";
