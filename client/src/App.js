@@ -41,14 +41,16 @@ function App() {
     var menu_btn = document.querySelector("#menu-btn")
     var sidebar = document.querySelector("#sidebar")
     var container = document.querySelector(".my-container ")
+    var glob = document.querySelector(".top-right");
     console.log(container)
     console.log(sidebar)
     console.log(sidebar)
-    if(menu_btn !== null && sidebar!==null && container!== null){
+    if(menu_btn !== null && sidebar!==null && container!== null && glob !== null){
 
       sidebar.classList.toggle("active-nav")
       menu_btn.classList.toggle("change")
       menu_btn.classList.toggle("active-cont")
+      glob.classList.toggle("visable-on")
       
       // container.classList.toggle("active-cont")
     }
