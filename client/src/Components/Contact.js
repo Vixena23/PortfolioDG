@@ -73,11 +73,11 @@ const Contact = (props) => {
                 <h1>{t('contact.head')}</h1>
                 <div className="col-lg-6 pt-5">
                   <div className="row my-2">
-                    <div className="col-4"><img src={emailImg} alt="email icon" width={80} height={80}></img></div>
+                    <div className="col-4"><img src={emailImg} alt="email icon" width={60} height={60}></img></div>
                     <div className="col-8 m-auto">{t('contact.email')}</div>
                   </div>
                   <div className="row">
-                    <div className="col-4"><img src={phoneImg} alt="phone icon" width={80} height={80}></img></div>
+                    <div className="col-4"><img src={phoneImg} alt="phone icon" width={60} height={60}></img></div>
                     <div className="col-8 m-auto">{t('contact.tel')}</div>
                   </div>
                   <div className="row">
@@ -85,7 +85,7 @@ const Contact = (props) => {
                     <div className="col-8 m-auto">xxxxxxxxxxx</div>
                   </div>
                   <div className="row">
-                    <div className="col-4"><img src={githubImg} alt="github icon" width={80} height={80}></img></div>
+                    <div className="col-4"><img src={githubImg} alt="github icon" width={60} height={60}></img></div>
                     <div className="col-8 m-auto"><a href="https://github.com/Vixena23">GitHub</a></div>
                   </div>
                 </div>

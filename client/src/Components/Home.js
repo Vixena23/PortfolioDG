@@ -9,9 +9,9 @@ const Home = (props) => {
         <section className="home" id="home">
           <div className="">
               <div className="bg-image p-5 shadow-1-strong mb-2 text-white my-auto">
-                  <div className="col-xl-7  pt-2">
-                    <h1>{t('about.start_desc.first')}</h1>
-                    <h2>{t('about.start_desc.second')}</h2>
+                  <div className="col-xl-6  pt-2">
+                    <h2 className="fw-bold mb-4">{t('about.start_desc.first')}</h2>
+                    <h4 className="fw-bold">{t('about.start_desc.second')}</h4>
                     <p className='mt-0'>
                             {t('about.end_desc.first')}
                                 </p>

@@ -46,12 +46,13 @@
     "comment3": "-----------About section-----------",
     "about": {
       "start_desc": {
-        "first": "Cześć! Mam na imie Dominik",
-        "second": "Jestem autorem tej strony!"
+        "first": "Dzień dobry, cześć!",
+        "second": "Mam na imię Dominik i jestem autorem tej strony."
       },
       "end_desc": {
-        "first": "Od 2019 roku studiuję informatykę na SGGW. Od tego czasu udało mi się stworzyć kilka własnych projektów oraz dodatkowo zyskać doświadczenie jako wdrożeniowiec systemu ERP.",
-        "second": "Tą stronę stworzyłem własnoręcznie przy pomocy Node'a oraz React'a w języku JavaScript. Znajdziesz tutaj podstawowe informacje o mnie, możliwość kontaku ze mną, a także ukończone projekty oraz nad którymi pracuję."
+        "first": "Jestem studentem III roku informatyki na SGGW w Warszawie. W trakcie studiów stworzyłem kilka własnych projektów i zyskałem doświadczenie jako wdrożeniowiec systemu ERP. Niniejsza strona powstała przy pomocy Node'a oraz React'a w języku JavaScript.  ",
+        "second": ""
+
       },
       "button":{
         "CV": "CV",
@@ -72,16 +73,16 @@
       "button": "Wyślij",
       "pop-up_mess": "Twoja widomość została wysłana.",
       "email": "glegolaadominik@gmail.com",
-      "tel": "504353128"
+      "tel": "504-353-128"
     },
 
     
     "comment5": "-----------WhatUFind section-----------",
     "whatufind": {
-      "head": "O mnie",
+      "head": "Kilka słów o mnie ",
       "paragraf":{
-        "first": "Jestem młodym i chcącym się rozwijać programistą. Na ten moment chciałbym się rozwijać jako C# backend developer, lecz uważam, że każde nowe doświadczenia są korzystne w rozwoju.",
-        "second": "Interesuje się sztukami walki parterowymi oraz kulturą krajów wschodniej Azji. W wolnych chwilach najchętniej trenuję BJJ, czytam ksiażki oraz słucham podcastów. ",
+        "first": "Jestem młodym, ambitnym i otwartym na nowe technologie programistą. Obecnie chciałbym rozwijać się jako C# backend developer, niemniej jednak uważam, że otwartość na pozyskiwanie wiedzy oraz nowe doświadczenia są cenne w naszym samorozwoju. Najlepiej czuję się z Visual Studio i w języku C#, jestem również zaznajomiony z postawami metodyki Agile, a konkretnie ze Scrum i Kanban oraz kilkoma wzorcami projektowymi. Dodatkowo znam podstawy pisania testów jednostkowych i integracyjnych.",
+        "second": "Interesuje się sztukami walki parterowymi oraz kulturą krajów wschodniej Azji.W wolnych chwilach najchętniej trenuję BJJ, czytam książki oraz słucham podcastów.",
         "third": ""
       }
     },
@@ -90,7 +91,7 @@
     "footer": {
       "contact_info": {
         "header": "Kontakt",
-        "phone_number": "504 353 128",
+        "phone_number": "504-353-128",
         "city": "Warszawa",
         "country": "Polska",
         "zip": "02-699",
