@@ -7,7 +7,7 @@ const Home = (props) => {
 
     return(
         <section className="home" id="home">
-          <div className="container ">
+          <div className="">
               <div className="bg-image p-5 shadow-1-strong mb-2 text-white my-auto">
                   <div className="col-xl-7  pt-2">
                     <h1>{t('about.start_desc.first')}</h1>

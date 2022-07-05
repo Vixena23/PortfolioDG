@@ -127,7 +127,7 @@ function App() {
         </ul>
      </nav>
      </div>
-        <section className="p-4 my-container">
+        <section className="my-container">
         <div className="ff">
             
             <Home test = "test home"/>
