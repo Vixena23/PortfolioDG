@@ -46,13 +46,13 @@
     "comment3": "-----------About section-----------",
     "about": {
       "start_desc": {
-        "first": "Hi! My name is Dominik",
-        "second": "I am the creator of this website!"
+        "first": "Hi!",
+        "second": "My name is Dominik and I am the creator of this website!"
       },
       "end_desc": {
-        "first": "I have been studying IT at the Warsaw University of Life Sciences since 2019. Since then, I have managed to create some projects and  gain some additional experience as an ERP system implementer.",
-        "second": "I created this site with my own hands using Node and React in JavaScript. Here you will find basic information about me, the possibility to contact me, as well as completed projects and on which I am working."
-        },
+        "first": "I am a 3rd year student of computer science at SGGW in Warsaw. During my studies, I created several of my own projects and gained experience as an ERP system implementer. This website was created using Node and React in JavaScript.",
+        "second": ""
+      },
       "button":{
         "CV": "CV",
         "GitHub": "GitHub"
@@ -72,16 +72,28 @@
       "button": "Send",
       "pop-up_mess": "Your message has been sent",
       "email": "glegolaadominik@gmail.com",
-      "tel": "504353128"
+      "tel": "504-353-128"
     },
 
     
     "comment5": "-----------WhatUFind section-----------",
     "whatufind": {
       "head": "About me",
-      "paragraf":{
-        "first": "I am a young and eager to grow as a programmer. At this point I would like to develop as a C# backend developer, but I believe that any new experience is beneficial in development.",        
-        "second": "I'm interested in grapling and the culture of East Asian. In my free time, I preferably train BJJ, read books and listen to podcasts.",
+      "paragraf":{     
+        "first": {
+          "1": "I am a young, ambitious and open to new technologies programmer. Currently, I would like to develop as a ",
+          "2": "C# backend developer",
+          "3": ", nevertheless, I believe that openness to gain knowledge and new experiences are valuable in our self-development. I am most comfortable with ",
+          "4": "Visual Studio and the C# language",
+          "5": ", and I am also familiar with the attitudes of ",
+          "6": "Agile",
+          "7":" methodology, specifically  ",
+          "8":"Scrum",
+          "9":" and ",
+          "10":"Kanban",
+          "11":", as well as several design patterns. Additionally, I am familiar with the basics of writing unit and integration tests."
+        },
+        "second": "I'm interested in grapling and the culture of East Asian countries. In my free time I most enjoy training BJJ, reading books and listening to podcasts.",
         "third": ""
       }
     },

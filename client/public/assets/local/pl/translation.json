@@ -81,8 +81,20 @@
     "whatufind": {
       "head": "Kilka słów o mnie ",
       "paragraf":{
-        "first": "Jestem młodym, ambitnym i otwartym na nowe technologie programistą. Obecnie chciałbym rozwijać się jako C# backend developer, niemniej jednak uważam, że otwartość na pozyskiwanie wiedzy oraz nowe doświadczenia są cenne w naszym samorozwoju. Najlepiej czuję się z Visual Studio i w języku C#, jestem również zaznajomiony z postawami metodyki Agile, a konkretnie ze Scrum i Kanban oraz kilkoma wzorcami projektowymi. Dodatkowo znam podstawy pisania testów jednostkowych i integracyjnych.",
-        "second": "Interesuje się sztukami walki parterowymi oraz kulturą krajów wschodniej Azji.W wolnych chwilach najchętniej trenuję BJJ, czytam książki oraz słucham podcastów.",
+        "first": {
+          "1": "Jestem młodym, ambitnym i otwartym na nowe technologie programistą. Obecnie chciałbym rozwijać się jako ",
+          "2": "C# backend developer",
+          "3": ", niemniej jednak uważam, że otwartość na pozyskiwanie wiedzy oraz nowe doświadczenia są cenne w naszym samorozwoju. Najlepiej czuję się z ",
+          "4": "Visual Studio i w języku C#",
+          "5": ", jestem również zaznajomiony z postawami metodyki ",
+          "6": "Agile",
+          "7":", a konkretnie ze ",
+          "8":"Scrum",
+          "9":" i ",
+          "10":"Kanban",
+          "11":" oraz kilkoma wzorcami projektowymi. Dodatkowo znam podstawy pisania testów jednostkowych i integracyjnych."
+        },
+        "second": "Interesuje się sztukami walki parterowymi oraz kulturą krajów wschodniej Azji. W wolnych chwilach najchętniej trenuję BJJ, czytam książki oraz słucham podcastów.",
         "third": ""
       }
     },
