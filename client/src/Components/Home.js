@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 const Home = (props) => {
     const { t } = useTranslation()
 
-    const CV = require('../img/picture.jpg');
+    const CV = require('../cv/Dominik_Glegola_CV.pdf');
 
     return(
         <section className="home" id="home">

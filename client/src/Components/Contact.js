@@ -82,11 +82,11 @@ const Contact = (props) => {
                   </div>
                   <div className="row">
                     <div className="col-4"><img src={linkedinImg} alt="linkedin icon" width={80} height={80}></img></div>
-                    <div className="col-8 m-auto">xxxxxxxxxxx</div>
+                    <div className="col-8 m-auto"><a href={t('contact.linkedin')} >{t('contact.linkedin')}</a></div>
                   </div>
                   <div className="row">
                     <div className="col-4"><img src={githubImg} alt="github icon" width={60} height={60}></img></div>
-                    <div className="col-8 m-auto"><a href="https://github.com/Vixena23">GitHub</a></div>
+                    <div className="col-8 m-auto"><a href={t('contact.github')} >{t('contact.github')}</a></div>
                   </div>
                 </div>
                   <div className="col-lg-6 mx-auto pt-5">

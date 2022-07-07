@@ -72,7 +72,9 @@
       "button": "Send",
       "pop-up_mess": "Your message has been sent",
       "email": "glegolaadominik@gmail.com",
-      "tel": "504-353-128"
+      "tel": "504-353-128",
+      "github":"https://github.com/Vixena23",
+      "linkedin": "https://www.linkedin.com/in/dominik-glego%C5%82a-270672244/"
     },
 
     
@@ -119,19 +121,19 @@
     "learn_more": "Read more...",
     "project1": {
       "header": "Shop Online",
-      "desc": "This is a simple online store project that I am working on myself. At this point, it has basic functionality such as displaying products and a shopping cart. It is largely used to learn how to implement new functionalities. I'm using Blazor WebAssembly on the front end, ASP Web Api as a server and EF Core when connecting to the database. In addition, I try to write integration tests for each new functionality.",
+      "desc": "A custom online store project created for educational purposes. The online store has basic functionality such as ad display and shopping cart. In addition, integration tests are written for each new functionality. During the development of the site, Blazor WebAssembly was used on the front end, ASP Web Api as the server and EF Core for the database connection.",
       "in_progress": "In progress",
       "link": "https://github.com/Vixena23/ShopOnlineSolution"
     },
     "project2": {
       "header": "Pasjans Klondike",
-      "desc": "This is the first team project involved about 20 people. We split into two teams: developers and testers, and created a Pasjans game that can be played online. We created it using Node.JS and React.JS. In this project, I was responsible for the user account and some animations.",
+      "desc": "My first team project involving about 20 people, divided into two teams: developers and testers. The project allows playing solitaire online with other users. It was created using Node.JS and React.JS. In this project, I was responsible for the user account and some animations. ",
       "in_progress": "Done",
       "link": "https://github.com/PasjansProjektIO"
     },
     "project3": {
       "header": "Promotional Newspaper Aggregator",
-      "desc": "This is quite an advanced project that I plan to start in the near future. It will be a web application that aggregates promotional newspapers of grocery stores such as Biedronka and Auchan. This is also the subject of my engineering thesis, so I estimate the deadline for this project at the end of 2022.",
+      "desc": "An idea for an advanced project that I would like to implement in the near future. It will be a web application aggregating promotional newspapers of grocery stores such as Biedronka and Auchan, among others. I will be doing this project as part of my engineering work.",
       "in_progress": "In future",
       "link": "#"
     },

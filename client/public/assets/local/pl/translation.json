@@ -73,7 +73,9 @@
       "button": "Wyślij",
       "pop-up_mess": "Twoja widomość została wysłana.",
       "email": "glegolaadominik@gmail.com",
-      "tel": "504-353-128"
+      "tel": "504-353-128",
+      "github":"https://github.com/Vixena23",
+      "linkedin": "https://www.linkedin.com/in/dominik-glego%C5%82a-270672244/"
     },
 
     
@@ -120,19 +122,19 @@
     "learn_more": "Czytaj więcej...",
     "project1": {
       "header": "Sklep Online",
-      "desc": "Jest to prosty projekt sklepu internetowego nad którym sam pracuję. Na ten moment posiada podstawowe funkcjonalności takie jak: wyświetlanie ogłoszeń czy koszyk. W dużym stopniu służy do nauki implementowania nowych funkcjonalności. Korzystam z Blazor WebAssembly na froncie, ASP Web Api jako serwer oraz EF Core przy połączeniu z bazą danych. Dodatkowo staram się pisać testy integracyjne dla każdej nowej funkcjinalności.",
+      "desc": "Własny projekt sklepu internetowego stworzony w celach edukacyjnych. Sklep Online posiada podstawowe funkcjonalności takie jak wyświetlanie ogłoszeń oraz koszyk. Ponadto dla każdej nowej funkcjonalności są pisane testy integracyjne. Podczas tworzenia strony skorzystano z Blazor WebAssembly na froncie, ASP Web Api jako serwer oraz EF Core przy połączeniu z bazą danych.",
       "in_progress": "W trakcie",
       "link": "https://github.com/Vixena23/ShopOnlineSolution"
     },
     "project2": {
       "header": "Pasjans Klondike",
-      "desc": "Pierwszy projekt zespołowy w którym brało udział około 20 osób. Podzieliliśmy się na dwa podzespoły: developerów i testerów, a następnie stworzyliśmy grę Pasjans, w którą można grać online. Stworzyliśmy ją przy pomocy Node.JS oraz React.JS. W tym projekcie byłem odpowiedzialny za konto użytkownika oraz niektóre animacje. ",
+      "desc": "Mój pierwszy projekt zespołowy w którym wzięło udział około 20 osób, podzielonych na dwa podzespoły: developerów i testerów. Projekt umożliwia grę w pasjansa online z innymi użytkownikami. Została stworzona przy pomocy Node.JS oraz React.JS. W tym projekcie byłem odpowiedzialny za konto użytkownika oraz niektóre animacje. ",
       "in_progress": "Skończony",
       "link": "https://github.com/PasjansProjektIO"
     },
     "project3": {
       "header": "Agregator Gazetek Promocyjnych",
-      "desc": "Jest to dosyć zaawansowany projekt, który mam w planach zacząć w niedalekiej przyszłości. Będzie to aplikacja internetowa agregująca gazetki promocyjne sklepów spożywczych, takich jak Biedronka czy Auchan. Jest to również temat mojej pracy inżynieryjnej, więc deadline tego projektu szacuje na koniec roku 2022.",
+      "desc": "Pomysł na zaawansowany projekt, który chciałabym zrealizować w niedalekiej przyszłości. Będzie to aplikacja internetowa agregująca gazetki promocyjne sklepów spożywczych takich jak m.in. Biedronka czy Auchan. Projekt ten będę wykonywał w ramach swojej pracy inżynierskiej.",
       "in_progress": "W planach",
       "link": "#"
     },
