@@ -115,13 +115,13 @@ function App() {
             <li className="nav-item w-100 my-3">
                 
             </li>
-            <li className="nav-item w-100 ms-4">
+            <li className="nav-item w-100 ps-4">
               <div className="nav-info ">{t('phone')}: {t('contact.tel')}</div>
             </li>
-            <li className="nav-item w-100 ms-4">
+            <li className="nav-item w-100 ps-4">
               <div className="nav-info">{t('contact.email')}</div>
             </li>
-            <li className="nav-item w-100 ms-4">
+            <li className="nav-item w-100 ps-4">
               <div className="nav-info">&copy;{new Date().getFullYear()}</div>
             </li>
             
