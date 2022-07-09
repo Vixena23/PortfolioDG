@@ -96,7 +96,7 @@
           "10":"Kanban",
           "11":" oraz kilkoma wzorcami projektowymi. Dodatkowo znam podstawy pisania testów jednostkowych i integracyjnych."
         },
-        "second": "Interesuje się sztukami walki parterowymi oraz kulturą krajów wschodniej Azji. W wolnych chwilach najchętniej trenuję BJJ, czytam książki oraz słucham podcastów.",
+        "second": "Interesuję się sztukami walki parterowymi oraz kulturą krajów wschodniej Azji. W wolnych chwilach najchętniej trenuję BJJ, czytam książki oraz słucham podcastów.",
         "third": ""
       }
     },
@@ -128,7 +128,7 @@
     },
     "project2": {
       "header": "Pasjans Klondike",
-      "desc": "Mój pierwszy projekt zespołowy w którym wzięło udział około 20 osób, podzielonych na dwa podzespoły: developerów i testerów. Projekt umożliwia grę w pasjansa online z innymi użytkownikami. Została stworzona przy pomocy Node.JS oraz React.JS. W tym projekcie byłem odpowiedzialny za konto użytkownika oraz niektóre animacje. ",
+      "desc": "Mój pierwszy projekt zespołowy w którym wzięło udział około 20 osób, podzielonych na dwa podzespoły: developerów i testerów. Projekt umożliwia grę w pasjansa online z innymi użytkownikami. Gra została stworzona przy pomocy Node.JS oraz React.JS. W tym projekcie byłem odpowiedzialny za konto użytkownika oraz niektóre animacje. ",
       "in_progress": "Skończony",
       "link": "https://github.com/PasjansProjektIO"
     },
@@ -140,14 +140,14 @@
     },
     "project4": {
       "header": "Portfolio",
-      "desc": "Projekt przy wykorzystaniu Node.js - Express oraz React. Jest to aplikacja na której się aktualnie znajdujesz, starałem się możliwie jak najwięcej funkcjonalności pisać od początku. Projekt zakładał stworzenie w miarę schludnego portfolio w celu reklamowania siebie przyszłym pracodawcom. Jest to projekt wstępnie skończony, co oznacza, że będę chciał jeszcze do niego wrócić i go poprawić (chociażby zrefaktorować kod).",
+      "desc": "Projekt zakładał stworzenie osobistego portfolio. Aplikacja powstała przy wykorzystaniu Node.js - Express oraz React, jest w trakcie realizacji i będzie na bieżąco modyfikowana.",
       "in_progress": "Wstępnie skończone",
       "link": "https://github.com/Vixena23/PortfolioDG"
     },
     "small_projects":{
       "desc": "Mniejsze projekty, o których warto wspomnieć:",
-      "1": "Aplikacja mobilna do hodowli matek pszczelich w Xamarinie i SQL Lite. (projekt zespołowy)",
-      "2": "Aplikacja webowa przypominająca OLX (podstawowe funkcje), stworzona za pomocą Blazor WebAssembly, ASP Web Api oraz EF Core. (projekt zespołowy)"
+      "1": "Aplikacja mobilna do hodowli matek pszczelich w Xamarinie i SQL Lite (projekt zespołowy).",
+      "2": "Aplikacja webowa przypominająca OLX (podstawowe funkcje), stworzona za pomocą Blazor WebAssembly, ASP Web Api oraz EF Core (projekt zespołowy)."
     }
     
   }

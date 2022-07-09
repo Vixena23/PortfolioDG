@@ -139,13 +139,14 @@
     },
     "project4": {
       "header": "Portfolio",
-      "desc": "The project using Node.js - Express and React. This is the application you are currently on, I tried to write as much functionality as possible from scratch. The project was to create a fairly neat portfolio to advertise myself to future employers. It is a pre-finished project, which means that I will still want to come back to it and improve it (if only to refactor the code).",      "in_progress": "Pre-finished",
+      "desc": "The project was to create a personal portfolio. The application was created using Node.js - Express and React, is in progress and will be modified on an ongoing basis.",      
+      "in_progress": "Pre-finished",
       "link": "https://github.com/Vixena23/PortfolioDG"
     },
     "small_projects":{
       "desc": "Smaller projects worth mentioning",
-      "1": "A mobile application for raising bee queens in Xamarin and SQL Lite. (team project)",
-      "2": "An OLX-like web application (basic functions), developed using Blazor WebAssembly, ASP Web Api and EF Core. (team project)"
+      "1": "A mobile application for raising bee queens in Xamarin and SQL Lite (team project).",
+      "2": "An OLX-like web application (basic functions), developed using Blazor WebAssembly, ASP Web Api and EF Core (team project)."
     }
     
   }

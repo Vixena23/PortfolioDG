@@ -175,10 +175,7 @@ const Technology = (props) => {
                 </div>
 
               </div>
-              <div className="col m-3 mb-0">
-                <div className="row"> {t('tech.desc')}</div>
-                <div className="row">{t('tech.known')}</div>
-              </div>
+              
         
              
             
