@@ -147,7 +147,7 @@ const Technology = (props) => {
               </div>
             
             
-              <div className="col mt-5"><BulbIcon />
+              <div className="col mt-5 "><BulbIcon />
               {t('tech.learning.title')}
                 <div className="row">
                   <div className="col-6">
